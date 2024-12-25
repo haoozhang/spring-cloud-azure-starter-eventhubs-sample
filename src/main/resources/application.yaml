@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    azure:
+      eventhubs:
+        namespace: evhns-tncoew3nc2j66
+        event-hub-name: bbbb
+        consumer:
+          consumer-group: $Default
+          event-hub-name: aaaa
+        producer:
+          event-hub-name: aaaa
